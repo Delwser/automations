@@ -19,9 +19,9 @@ Dentro do arquivo do connect tem duas variaveis. HTBPATH e THMPATH, nela você p
 
 #### Execute:
 
-`./connect THM` --> Conectar a VPN TryHackMe
+`./connect.sh THM` --> Conectar a VPN TryHackMe
 
-`./connect HTB` --> Conectar a VPN HackTheBox
+`./connect.sh HTB` --> Conectar a VPN HackTheBox
 
 Obs: Normalmente eu prefiro criar um alias no .bashrc para usar apenas o comando connect e o parametro.
 
