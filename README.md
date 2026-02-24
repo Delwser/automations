@@ -11,9 +11,9 @@ O Script 'Connect' foi feito para conectar automaticamente a VPN do Tryhackme e 
 
 Dentro do arquivo do connect tem duas variaveis. HTBPATH e THMPATH, nela você precisa passar o path do seu arquivo .ovpn, segue exemplo:
 
-HTBPATH='/home/delwser/vpn-files/htb.ovpn'
+`HTBPATH='/home/delwser/vpn-files/htb.ovpn'`
 
-THMPATH='/home/delwser/vpn-files/thm.ovpn'
+`THMPATH='/home/delwser/vpn-files/thm.ovpn'`
 
 (obs: Por favor não de espaço após o "=" pois vai quebrar o script.)
 
