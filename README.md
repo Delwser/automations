@@ -38,5 +38,6 @@ O Script "kali-apt" foi feito para instalar automaticamente o Apt do Kali Linux,
 Para rodar:
 
 `chmod +x kali-apt.sh`
+
 `./kali-apt.sh`
 
