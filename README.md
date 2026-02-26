@@ -1,4 +1,4 @@
-# automations
+# Automations
 Automações que decidi que seria mais simples do que rodar 2 comandos.
 
 
