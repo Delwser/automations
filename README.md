@@ -30,4 +30,12 @@ Segue como deixar no .bashrc
 `alias connect='bash [path do connect]'`
 
 
+### Kali Apt.
+
+O Script "kali-apt" foi feito para instalar automaticamente o Apt do Kali Linux, adicionando a chave gpg e o source.list do Kali.
+
+Para rodar:
+
+`chmod +x kali-apt.sh`
+`./kali-apt.sh`
 
