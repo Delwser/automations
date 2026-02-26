@@ -29,6 +29,7 @@ Segue como deixar no .bashrc
 
 `alias connect='bash [path do connect]'`
 
+-------------------
 
 ### Kali Apt.
 
