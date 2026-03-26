@@ -19,6 +19,8 @@ O Script 'Connect' foi feito para conectar automaticamente a VPN do Tryhackme e 
 
 `dos2unix connect.sh`
 
+`chmod 777 connect.sh`
+
 #### Configure:
 
 Dentro do arquivo do connect tem duas variaveis. HTBPATH e THMPATH, nela você precisa passar o path do seu arquivo .ovpn, segue exemplo:
