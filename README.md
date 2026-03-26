@@ -13,6 +13,8 @@ O Script 'Connect' foi feito para conectar automaticamente a VPN do Tryhackme e 
 
 `sudo apt install dos2unix`
 
+`sudo apt install openvpn`
+
 `wget https://raw.githubusercontent.com/Delwser/automations/refs/heads/main/connect.sh`
 
 `dos2unix connect.sh`
