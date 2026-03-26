@@ -7,6 +7,13 @@ Automações que decidi que seria mais simples do que rodar 2 comandos.
 
 O Script 'Connect' foi feito para conectar automaticamente a VPN do Tryhackme e HackTheBox
 
+#### Instalation
+
+`sudo apt install wget`
+`sudo apt install dos2unix`
+`wget https://raw.githubusercontent.com/Delwser/automations/refs/heads/main/connect.sh`
+`dos2unix connect.sh`
+
 #### Configure:
 
 Dentro do arquivo do connect tem duas variaveis. HTBPATH e THMPATH, nela você precisa passar o path do seu arquivo .ovpn, segue exemplo:
@@ -17,17 +24,22 @@ Dentro do arquivo do connect tem duas variaveis. HTBPATH e THMPATH, nela você p
 
 (obs: Por favor não de espaço após o "=" pois vai quebrar o script.)
 
+#### Adicional
+
+—  Tornando-o binário para executar de qualquer lugar —
+`mv connect.sh /usr/bin/connect`
+
 #### Execute:
 
 `./connect.sh THM` --> Conectar a VPN TryHackMe
 
 `./connect.sh HTB` --> Conectar a VPN HackTheBox
 
-Obs: Normalmente eu prefiro criar um alias no .bashrc para usar apenas o comando connect e o parametro.
+OU — Caso você tenha tornado-o um binário
 
-Segue como deixar no .bashrc
+`connect THM`
 
-`alias connect='bash [path do connect]'`
+`connect HTB`
 
 ##
 
