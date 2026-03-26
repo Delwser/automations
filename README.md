@@ -35,7 +35,13 @@ Segue como deixar no .bashrc
 
 O Script "kali-apt" foi feito para instalar automaticamente o Apt do Kali Linux, adicionando a chave gpg e o source.list do Kali.
 
+Às vezes temos o problema do arquivo vir como "with CRLF line terminators" — (pode verificar usando o comando "file" no arquivo do kali-apt.sh) caso ele venha com essa versão será necessário baixar o dos2unix. Deixei os comandos abaixo de como executar todo o processo.
+
 Para rodar:
+
+`sudo apt install dos2unix`
+
+`dos2unix kali-apt.sh`
 
 `chmod +x kali-apt.sh`
 
