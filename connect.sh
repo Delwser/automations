@@ -21,18 +21,21 @@ fi
 
 THM() {
         echo "connecting TryHackMe VPN..."
-        sudo openvpn $THMPATH 
+        sudo openvpn --config "$THMPATH" --daemon
+		echo "VPN Conectada - Teste a conexão."
 }
 
 HTB() {
         echo "connecting HackTheBox VPN..."
-        sudo openvpn $HTBPATH
+        sudo openvpn --config "$HTBPATH" --daemon
+		echo "VPN Conectada - Teste a conexão."
 
 }
 
 HKC() {
         echo "connecting Hacking Club VPN..."
-        sudo openvpn $HKCPATH
+        sudo openvpn --config "$HKCPATH" --daemon
+		echo "VPN Conectada - Teste a conexão."
 
 }
 
